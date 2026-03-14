@@ -23,14 +23,14 @@ FAKE_UA_LIST = [
 # === INTRO CARD === #
 def show_intro():
     print("\033[94m")
-    print("╔══════════════════════════════════════════════════════")
-    print("£                    ☠︎ SYSTEM PROFILE LOADER ☠︎                ")
-    print("╠══════════════════════════════════════════════════════")
+    print("══════════════════════════════════════════════════════")
+    print("£    ☠︎ SYSTEM PROFILE LOADER ☠︎                ")
+    print("═════════════════════════════════════════════════════")
     print("> ☠︎ NAME       : DARK OF MASTER HACKER                           ")
     print("> WHATSAPP CHANNEL : https://whatsapp.com/channel/0029VbAsHR3EquiQSTbSZw2z                          ")
     print("> SYSTEM ACTIVE✔  : DARK HACKER                           ")
     print("> SPECIALITY : SYSTEM BRAECH | PROXY MANIPULATION         ")
-    print("╚══════════════════════════════════════════════════════")
+    print("════════════════════════════════════════════════════")
     print("\033[0m")
     time.sleep(2)
 
@@ -39,14 +39,14 @@ def show_banner():
     os.system("cls" if os.name == "nt" else "clear")
     show_intro()
     print("""\033[95m
-╔════════════════════════════════════════════════════
-⌥         ☠ DARK OF MASTER DDOS v1 – WORLD BREAKER ☠               
-⌥   POWERED BY: DARK OF MASTER | PROXY + MULTI-VECTOR ENGINE     
-╠════════════════════════════════════════════════════
+════════════════════════════════════════════════════
+⌥ ☠ DARK OF MASTER DDOS v1 – WORLD BREAKER ☠               
+⌥ POWERED BY: DARK OF MASTER | PROXY + MULTI-VECTOR ENGINE     
+════════════════════════════════════════════════════
 >   MAX THREADS   : {:>8}                               
 >   ATTACK TIME   : 20 seconds                            
 >   PROXIES FILE  : proxies.txt                           
-╚════════════════════════════════════════════════════\033[0m
+════════════════════════════════════════════════════\033[0m
 """.format(NUM_THREADS))
     time.sleep(1)
 
@@ -142,16 +142,16 @@ def start_ui():
         print(f"\033[90m[📡] Loaded {len(proxies)} proxies from '{PROXY_FILE}'\033[0m")
 
     print("\033[96m")
-    print("╔══════════════════════════════════════")
-    print("£      DARK DDOS ATTACKER POWERFUL MENU TOOL    ")
-    print("╠══════════════════════════════════════")
+    print("══════════════════════════════════════")
+    print("£ DARK DDOS ATTACKER POWERFUL MENU TOOL    ")
+    print("══════════════════════════════════════")
     print("> [1] Ultra HTTP Burst (Spoof + Proxy)      ")
     print("> [2] GoldenEye Layer 7 (Proxy Flood)       ")
     print("> [3] Raw TCP Socket Attack                 ")
     print("> [4] Random Payload Mutation               ")
     print("> [5] MASSIVE MODE (All combined)          ")
     print("> [6] Exit                                  ")
-    print("╚══════════════════════════════════════")
+    print("══════════════════════════════════════")
     print("\033[0m")
 
     try:
